@@ -3,7 +3,7 @@
 </h2>
 
 
-## 2. Quick start
+## 1. Quick start
 
 ### Setup
 
@@ -152,7 +152,7 @@ ckpts/
 ```
 
 
-## 3. Usage
+## 2. Usage
 <details open>
 <summary> COCO2017 </summary>
 
@@ -256,7 +256,7 @@ If you'd like to train **DEIM** on COCO2017 with an input size of 320x320, follo
 
 </details>
 
-## 4. Tools
+## 3. Tools
 <details>
 <summary> Deployment </summary>
 
@@ -348,7 +348,7 @@ python reference/convert_weight.py model.pth
 
 </details>
 
-## 6. Acknowledgement
+## 4. Acknowledgement
 Our work is built upon [D-FINE](https://github.com/Peterande/D-FINE), [RT-DETR](https://github.com/lyuwenyu/RT-DETR), [DINOv3](https://github.com/facebookresearch/dinov3) and [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2). Thanks for their great work!
 
 ✨ Feel free to contribute and reach out if you have any questions! ✨
