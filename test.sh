@@ -1,0 +1,2 @@
+#CUDA_VISIBLE_DEVICES=0 torchrun   train.py -c configs/deimv2/wheat/deimv2_dinov3_s_wheat_resize2048.yml --test-only -r outputs/wheat_train/deimv2_dinov3_s_wheat_resize2048/best_stg2.pth
+CUDA_VISIBLE_DEVICES=0 torchrun   train.py -c configs/deimv2/ablation_experiments/deimv2_dinov3_s_wheat_ABC.yml --test-only -r outputs/ablation_experiments/deimv2_dinov3_s_ablation_ABC_78_20/best_stg2.pth
